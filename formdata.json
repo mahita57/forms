@@ -1,0 +1,23 @@
+{
+  "formName": [
+    {
+      "formName": "Reg",
+      "id": 1
+    }
+  ],
+  "formdata": [
+    {
+      "fieldname": "test",
+      "placeholder": "testing",
+      "fieldtype": "number",
+      "requiredfield": "Yes",
+      "defaultvalue": [
+        "hi",
+        "bye"
+      ],
+      "maxlength": "100",
+      "validationmessage": "This is a required field",
+      "id": 1
+    }
+  ]
+}

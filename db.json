@@ -1,0 +1,17 @@
+{
+  "modulename": "Registration",
+  "moduledata": [
+    {
+      "pagename": "Search Registration"
+    },
+    {
+      "pagename": "Pre Registration"
+    },
+    {
+      "pagename": "Quick Registration"
+    },
+    {
+      "pagename": "QR Code Registration"
+    }
+  ]
+}
