@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import Link from 'next/link';
-import {useRouter} from 'next/router'
+import { useRouter } from 'next/router'
 
 // const dataFile = {
 //   name: "MA",
@@ -14,10 +14,10 @@ import {useRouter} from 'next/router'
 
 const Landing = () => {
   const router = useRouter()
-  
+
   const mod = router.query?.moduleData
 
-console.log(mod, `mod`)
+  console.log(mod, `mod`)
 
   const [data, setData] = useState({})
   const [formsdata, setFormsdata] = useState([])
@@ -62,6 +62,7 @@ console.log(mod, `mod`)
       maxlength: formSchema.maxlength,
       validationmessage: formSchema.validationmessage
 
+      //comments
     }
     await axios.patch("http://localhost:4000/formName/1", nameofForm).then(res => { console.log(res) })
 
